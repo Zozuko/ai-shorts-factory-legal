@@ -3,18 +3,228 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Shorts Factory</title>
+    <meta name="color-scheme" content="dark">
+    <title>AI Shorts Factory Desktop - Windows application for short-form videos</title>
+    <meta name="description" content="AI Shorts Factory Desktop helps users create AI videos with scripts, narration, visuals, subtitles, and publishing.">
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>AI Shorts Factory</h1>
+<body class="home">
+    <a class="skip-link" href="#main">Skip to content</a>
 
-    <p>AI Shorts Factory is a web application for creating AI-powered short-form videos.</p>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="./"><span class="brand-mark" aria-hidden="true"></span>AI Shorts Factory Desktop</a>
+            <nav class="site-nav" aria-label="Main">
+                <a href="#features">What it does</a>
+                <a href="#workflow">Workflow</a>
+                <a href="#publishing">Publishing</a>
+                <a href="#data">Your data</a>
+                <a href="#access">Access</a>
+                <a class="legal-link" href="terms.html">Terms</a>
+                <a class="legal-link" href="privacy.html">Privacy</a>
+            </nav>
+        </div>
+    </header>
 
-    <h2>Legal</h2>
+    <main id="main">
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow">AI Shorts Factory Desktop</p>
+                    <h1>Create, review, and publish <span class="nowrap">AI-powered</span> <span class="nowrap">short-form</span> videos from your Windows desktop.</h1>
+                    <p class="lead">AI Shorts Factory Desktop is a Windows desktop application that helps creators produce vertical short-form videos using <span class="nowrap">AI-assisted</span> tools.</p>
+                    <p class="hero-sub">It takes a video from script to a finished 1080 &times; 1920 MP4 on the creator's own computer, and the creator reviews the result before choosing where to publish it.</p>
+                    <p class="actions">
+                        <a class="button" href="#access">Request access</a>
+                        <a class="button secondary" href="#workflow">See the workflow</a>
+                    </p>
+                    <ul class="hero-meta" aria-label="At a glance">
+                        <li>Windows desktop</li>
+                        <li>1080 &times; 1920 MP4</li>
+                        <li>Controlled access</li>
+                    </ul>
+                </div>
+                <figure class="shot shot-hero">
+                    <div class="shot-frame">
+                        <img src="assets/final-video-review.png" width="1600" height="900" alt="AI Shorts Factory Desktop showing the Final stage of a project: a preview of the finished vertical video with its resolution, aspect ratio, duration and file size.">
+                    </div>
+                    <figcaption>The Final stage: the finished 1080 &times; 1920 video is previewed and inspected in the app before anything is published.</figcaption>
+                </figure>
+            </div>
+        </section>
 
-    <ul>
-        <li><a href="terms.html">Terms of Service</a></li>
-        <li><a href="privacy.html">Privacy Policy</a></li>
-    </ul>
+        <section id="features" class="section">
+            <div class="container">
+                <header class="section-head">
+                    <p class="section-label">Capabilities</p>
+                    <h2>What it does</h2>
+                    <p class="section-intro">AI Shorts Factory Desktop helps creators produce short-form videos on their own computer.</p>
+                </header>
+                <div class="feature-grid">
+                    <article class="feature">
+                        <span class="feature-num">01</span>
+                        <h3>AI-assisted scripts</h3>
+                        <p>Drafts a short-form script for the chosen topic with an AI language model that runs on the creator's computer.</p>
+                    </article>
+                    <article class="feature">
+                        <span class="feature-num">02</span>
+                        <h3>Narration</h3>
+                        <p>Turns the script into narration with text-to-speech that runs locally.</p>
+                    </article>
+                    <article class="feature">
+                        <span class="feature-num">03</span>
+                        <h3>Visuals</h3>
+                        <p>Uses stock footage from Pexels and Pixabay, and can use AI-generated video clips for scenes.</p>
+                    </article>
+                    <article class="feature">
+                        <span class="feature-num">04</span>
+                        <h3>Subtitles</h3>
+                        <p>Adds subtitles timed to the narration.</p>
+                    </article>
+                    <article class="feature">
+                        <span class="feature-num">05</span>
+                        <h3>Vertical video</h3>
+                        <p>Renders the finished video as a 1080 &times; 1920 (9:16) MP4.</p>
+                    </article>
+                    <article class="feature">
+                        <span class="feature-num">06</span>
+                        <h3>Publishing</h3>
+                        <p>Publishes the finished video to YouTube Shorts, Facebook Page Reels and TikTok, when the creator chooses to.</p>
+                    </article>
+                    <article class="feature feature-wide">
+                        <div class="feature-wide-copy">
+                            <span class="feature-num">07</span>
+                            <h3>Projects and review</h3>
+                            <p>Keeps each video as a project, so every stage can be checked and the final video reviewed before it is published.</p>
+                        </div>
+                        <figure class="shot">
+                            <div class="shot-frame">
+                                <img src="assets/projects.png" width="1440" height="754" loading="lazy" alt="The project list in AI Shorts Factory Desktop, showing several video projects with their production status.">
+                            </div>
+                            <figcaption>Each video is a project with its own production status.</figcaption>
+                        </figure>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="workflow" class="section section-alt">
+            <div class="container">
+                <header class="section-head">
+                    <p class="section-label">Process</p>
+                    <h2>Workflow</h2>
+                    <p class="section-intro">Every video moves through the same ten stages in the app.</p>
+                </header>
+                <ol class="steps">
+                    <li><strong>Script</strong> <span>An AI-assisted script for the topic, paced for a short video.</span></li>
+                    <li><strong>Narration</strong> <span>Text-to-speech narration of the script.</span></li>
+                    <li><strong>Scenes</strong> <span>The narration is split into scenes with cut points.</span></li>
+                    <li><strong>Assets</strong> <span>Candidate visuals are planned and selected for each scene.</span></li>
+                    <li><strong>Retrieval</strong> <span>The selected stock visuals are downloaded.</span></li>
+                    <li><strong>Quality</strong> <span>Visuals are checked; where stock footage is not suitable, a scene can use an AI-generated clip instead.</span></li>
+                    <li><strong>Subtitles</strong> <span>Subtitles are synchronized with the narration.</span></li>
+                    <li><strong>Render</strong> <span>Scenes, narration and subtitles are composed into the video.</span></li>
+                    <li><strong>Final</strong> <span>The finished 1080 &times; 1920 video is previewed and inspected.</span></li>
+                    <li><strong>Publish</strong> <span>The creator reviews the title, description and tags, chooses where to publish, and publishes.</span></li>
+                </ol>
+                <p class="callout">The creator reviews the resulting video and its metadata before publishing. Nothing is published until the creator explicitly clicks Publish.</p>
+            </div>
+        </section>
+
+        <section id="publishing" class="section">
+            <div class="container">
+                <header class="section-head">
+                    <p class="section-label">Destinations</p>
+                    <h2>Publishing</h2>
+                    <p class="section-intro">When a video is ready, the creator chooses one or more destinations and clicks Publish. Publishing always requires this explicit action by the creator.</p>
+                </header>
+                <div class="platform-grid">
+                    <article class="platform">
+                        <h3>YouTube Shorts</h3>
+                        <p>Uploads the video to the creator's YouTube channel after the creator connects their Google account.</p>
+                    </article>
+                    <article class="platform">
+                        <h3>Facebook Page Reels</h3>
+                        <p>Publishes the video as a Reel on a Facebook Page the creator manages, after the creator connects their Facebook account.</p>
+                    </article>
+                </div>
+                <article class="tiktok-panel">
+                    <div class="tiktok-copy">
+                        <h3>TikTok</h3>
+                        <p class="chips"><span>Login Kit</span><span>Content Posting API</span><span>Direct Post</span></p>
+                        <ul class="detail-list">
+                            <li><strong>Connecting:</strong> the creator connects their own TikTok account through TikTok's authorization page, using TikTok Login Kit. On that page the application is shown as &ldquo;AI Shorts Factory Desktop&rdquo;.</li>
+                            <li><strong>Posting:</strong> the finished video is posted to the creator's own TikTok profile through TikTok's Content Posting API (Direct Post).</li>
+                            <li><strong>Settings:</strong> before posting, the creator chooses who can view the video from the options TikTok offers for their account, whether others may comment, duet or stitch (where their TikTok settings allow it), and any commercial content disclosure. The video is labelled as AI-generated content.</li>
+                            <li><strong>Explicit action:</strong> a TikTok post is created only when the creator clicks Publish.</li>
+                        </ul>
+                    </div>
+                    <figure class="shot">
+                        <div class="shot-frame">
+                            <img src="assets/tiktok-direct-post-settings.png" width="1510" height="665" loading="lazy" alt="TikTok posting settings in AI Shorts Factory Desktop: who can view the video, allowed interactions, content disclosure, cover frame and the AI-generated content label.">
+                        </div>
+                        <figcaption>TikTok posting settings in the app, chosen by the creator before posting.</figcaption>
+                    </figure>
+                </article>
+            </div>
+        </section>
+
+        <section id="data" class="section section-alt">
+            <div class="container">
+                <header class="section-head">
+                    <p class="section-label">Your data</p>
+                    <h2>Local processing and your data</h2>
+                </header>
+                <ul class="data-grid">
+                    <li class="data-item">
+                        <svg class="data-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg>
+                        <p>AI Shorts Factory Desktop runs on the creator's Windows PC.</p>
+                    </li>
+                    <li class="data-item">
+                        <svg class="data-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+                        <p>Projects and generated videos are stored locally on that PC.</p>
+                    </li>
+                    <li class="data-item">
+                        <svg class="data-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>
+                        <p>Credentials for connected accounts are stored locally and encrypted using Windows DPAPI (Data Protection API).</p>
+                    </li>
+                    <li class="data-item">
+                        <svg class="data-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 14a4 4 0 0 1 0-5.66l2.34-2.34a4 4 0 0 1 5.66 5.66L17 12.66M14 10a4 4 0 0 1 0 5.66l-2.34 2.34a4 4 0 0 1-5.66-5.66L7 11.34"/><path d="M4 4l16 16"/></svg>
+                        <p>Disconnecting an account in the app removes its stored credentials.</p>
+                    </li>
+                </ul>
+                <div class="data-note">
+                    <p>The app uses the internet to search for and download stock footage from Pexels and Pixabay, and to communicate with the platforms the creator connects and publishes to.</p>
+                    <p>For details, read the <a href="privacy.html">Privacy Policy</a>.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="access" class="section section-access">
+            <div class="container">
+                <div class="access-panel">
+                    <h2>Access</h2>
+                    <p class="access-text">AI Shorts Factory Desktop currently provides controlled access. Creators may contact us to request access.</p>
+                    <p class="actions">
+                        <a class="button button-lg" href="mailto:dvishuddhiya@yahoo.com?subject=AI%20Shorts%20Factory%20Desktop%20access%20request">Request access</a>
+                    </p>
+                    <p class="contact">Contact: <a href="mailto:dvishuddhiya@yahoo.com?subject=AI%20Shorts%20Factory%20Desktop%20access%20request">dvishuddhiya@yahoo.com</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p class="footer-brand"><span class="brand-mark" aria-hidden="true"></span>AI Shorts Factory Desktop</p>
+            <nav class="footer-nav" aria-label="Legal and contact">
+                <a href="terms.html">Terms of Service</a>
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="mailto:dvishuddhiya@yahoo.com">Contact</a>
+            </nav>
+            <p class="fineprint">TikTok, YouTube and Facebook are trademarks of their respective owners. AI Shorts Factory Desktop is an independent application and is not affiliated with, endorsed by or sponsored by TikTok, YouTube, Google, Facebook or Meta.</p>
+        </div>
+    </footer>
 </body>
 </html>
