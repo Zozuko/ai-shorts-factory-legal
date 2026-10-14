@@ -170,15 +170,12 @@ p {
     color: #ffffff;
 }
 
-.brand-mark {
+/* The app icon itself: the same image as the favicon and the TikTok Basic Info icon. */
+.brand-icon {
+    display: block;
     flex: none;
-    width: 22px;
-    height: 22px;
-    border-radius: 7px;
-    background:
-        linear-gradient(135deg, rgba(255, 255, 255, 0.28), rgba(255, 255, 255, 0) 55%),
-        linear-gradient(135deg, var(--accent), var(--accent-2));
-    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.12) inset, 0 4px 14px -4px rgba(109, 125, 255, 0.7);
+    width: 28px;
+    height: 28px;
 }
 
 .site-nav {
@@ -929,10 +926,9 @@ h3 {
     font-weight: 650;
 }
 
-.footer-brand .brand-mark {
-    width: 18px;
-    height: 18px;
-    border-radius: 6px;
+.footer-brand .brand-icon {
+    width: 22px;
+    height: 22px;
 }
 
 .footer-nav {
